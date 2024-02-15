@@ -31,14 +31,14 @@ function showMessage(response) {
         if(noClickCount <= 5){
             document.getElementsByClassName("image")[0].src = sadImages[noClickCount - 1];
             document.getElementById("question").textContent =
-            "Told ya, please be my Valentine ˙◠˙";
+            "Pumarine na, and please be my lovie palagi ˙◠˙";
             document.getElementById("name").style.display = "none";
             document.getElementsByClassName("image2")[0].style.display = "none";
 
         } else {
             document.getElementsByClassName("image")[0].src = "/images/cat-cats.gif";
             const questionElement = document.getElementById("question");
-            questionElement.textContent =  "Okay Pookie, sorry for insisting so much. Of course I respect your boundaries and I'm sorry if I was being too pushy. I hope you have a fantastic Valentine's Day! And don't forget to drink water 🥛"
+            questionElement.textContent =  "Okay lovie, sorry for insisting so much. Of course I respect your boundaries and I'm sorry if I was being too pushy. I hope you have a fantastic Valentine's Day! And don't forget to drink water 🥛"
             questionElement.className = "message-text";
             noClickCount = 0;
 
@@ -65,7 +65,7 @@ function showMessage(response) {
         document.getElementById("yesButton").remove();
 
         const yesMessage = document.getElementById("question");
-        yesMessage.textContent = "YESSSSS, see you the 14th!!";
+        yesMessage.textContent = "I love you, lovie!!";
         yesMessage.style.display = "block";
         yesMessage.style.fontStyle = "normal";
 
